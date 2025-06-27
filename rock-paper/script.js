@@ -77,9 +77,9 @@ function playGame() {
   if (humanScore > computerScore) {
     console.log("🎉 Congratulations! You won the game!");
   } else if (computerScore > humanScore) {
-    console.log("😔 Sorry! The computer won the game.");
+    console.log("Sorry! The computer won the game.");
   } else {
-    console.log("🤝 It's a tie game!");
+    console.log("It's a tie game!");
   }
 }
 
