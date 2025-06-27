@@ -75,7 +75,7 @@ function playGame() {
   console.log(`Final score - You: ${humanScore}, Computer: ${computerScore}`);
 
   if (humanScore > computerScore) {
-    console.log("🎉 Congratulations! You won the game!");
+    console.log("Congratulations! You won the game!");
   } else if (computerScore > humanScore) {
     console.log("Sorry! The computer won the game.");
   } else {
